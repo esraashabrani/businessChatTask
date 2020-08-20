@@ -1,21 +1,13 @@
 # ServerApp
 
-**TODO: Add description**
+run following commands : 
+-> mix deps.get
+to install dependecies
 
-## Installation
+-> iex -S mix
+to run the server
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `server_app` to your list of dependencies in `mix.exs`:
+-> open ["http://localhost:8080/hello"] in your browser.
 
-```elixir
-def deps do
-  [
-    {:server_app, "~> 0.1.0"}
-  ]
-end
-```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/server_app](https://hexdocs.pm/server_app).
 
